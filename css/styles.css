@@ -1,0 +1,37 @@
+/* ~~~~~~~~~~~~~~AFFICHAGE NORMAL~~~~~~~~~~~~~~ */
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	min-width: 320px;
+	margin: auto;
+	background-color: #D86C77;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex: 1 0 auto;
+}
+
+.timeDisplay {
+	font-size: 6.25rem;
+}
+
+/* ~~~~~~~~~~~~~~AFFICHAGE RESPONSIVE~~~~~~~~~~~~~~ */
+@media screen and (max-width: 960px) {
+	/* GLOBAL */
+	html {
+		font-size: 85%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	/* GLOBAL */
+	html {
+		font-size: 70%;
+	}
+}

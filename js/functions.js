@@ -1,3 +1,4 @@
+var timeDisplay = document.querySelector('.timeDisplay');
 
 function time() {
 	let d = new Date();
